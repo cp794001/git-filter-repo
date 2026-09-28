@@ -1,4 +1,4 @@
-# A bunch of installation-related paths people can override on the command line
+https://github.com/cp794001/element-x-android/actions/runs/36328618675/job/108810514480# A bunch of installation-related paths people can override on the command line
 DESTDIR = /
 INSTALL = install
 prefix = $(HOME)
