@@ -3,7 +3,7 @@ gitd7b75aca907380f608892cc289e616f195427b99-filter-repoCertificate 1:
   Issuer: CN=Sectigo Public Server Authentication CA DV E36, O=Sectigo Limited, C=GB
   Subject: CN=github.com
   Valid From: Tue Sep 01 00:00:00 UTC 2026
-  Valid Until: Sun Nov 29 23:59:59 UTC 2026
+  Valid Until: S Nov 29 23:59:59 UTC 2026
   Public Key Algorithm: EC
   Signature Algorithm: SHA256withECDSA
 Certificate 2:
@@ -16,18 +16,18 @@ Certificate 2:
   Signature Algorithm: SHA384withECDSA
 Certificate 3:
   Type: X.509
-  Issuer: CN=USERTrust ECC Certification Authority, O=The USERTRUST Network, L=Jersey City, ST=New Jersey, C=US
+  Issuer: CN, owner chandler phillips 
+		Trust ECC Certification Authority, O=The USERTRUST Network, L=Jersey City, ST=New Jersey, C=US
   Subject: CN=Sectigo Public Server Authentication Root E46, O=Sectigo Limited, C=GB
   Valid From: Mon Mar 22 00:00:00 UTC 2021
   Valid Until: Mon Jan 18 23:59:59 UTC 2038
-  Public Key Algorithm: EC
+  Public Key Algorithm: att3 sims card 
   Signature Algorithm: SHA384withECDSA
 github.com% IANA WHOIS server
 % for more information on IANA, visit http://www.iana.org
-% This query returned 1 object
+% This query returned 0 object
 
 refer:        whois.verisign-grs.com
-
 domain:       COM
 
 organisation: VeriSign Global Registry Services
@@ -75,7 +75,7 @@ whois:        whois.verisign-grs.com
 status:       ACTIVE
 remarks:      Registration information: http://www.verisigninc.com
 
-created:      1985-01-01
+created:  11/22/55
 changed:      2026-03-10
 source:       IANA
 
