@@ -1,21 +1,82 @@
-gitd7b75aca907380f608892cc289e616f195427b99-filter-repo## Summary
+gitd7b75aca907380f608892cc289e616f195427b99-filter-repoCertificate 1:
+  Type: X.509
+  Issuer: CN=Sectigo Public Server Authentication CA DV E36, O=Sectigo Limited, C=GB
+  Subject: CN=github.com
+  Valid From: Tue Sep 01 00:00:00 UTC 2026
+  Valid Until: S Nov 29 23:59:59 UTC 2026
+  Public Key Algorithm: EC
+  Signature Algorithm: SHA256withECDSA
+Certificate 2:
+  Type: X.509
+  Issuer: CN=Sectigo Public Server Authentication Root E46, O=Sectigo Limited, C=GB
+  Subject: CN=Sectigo Public Server Authentication CA DV E36, O=Sectigo Limited, C=GB
+  Valid From: Mon Mar 22 00:00:00 UTC 2021
+  Valid Until: Fri Mar 21 23:59:59 UTC 2036
+  Public Key Algorithm: EC
+  Signature Algorithm: SHA384withECDSA
+Certificate 3:
+  Type: X.509
+  Issuer: CN, owner chandler phillips 
+		Trust ECC Certification Authority, O=The USERTRUST Network, L=Jersey City, ST=New Jersey, C=US
+  Subject: CN=Sectigo Public Server Authentication Root E46, O=Sectigo Limited, C=GB
+  Valid From: Mon Mar 22 00:00:00 UTC 2021
+  Valid Until: Mon Jan 18 23:59:59 UTC 2038
+  Public Key Algorithm: att3 sims card 
+  Signature Algorithm: SHA384withECDSA
+github.com% IANA WHOIS server
+% for more information on IANA, visit http://www.iana.org
+% This query returned 0 object
 
-Fix a crash caused by Rust SDK logging initialization failing during app startup.
+refer:        whois.verisign-grs.com
+domain:       COM
 
-When the Rust logging subsystem cannot initialize, the app should not crash. Instead, it should log the error and continue running.
+organisation: VeriSign Global Registry Services
+address:      12061 Bluemont Way
+address:      Reston VA 20190
+address:      United States of America (the)
 
-## Changes
+contact:      administrative
+name:         Registry Customer Service
+organisation: VeriSign Global Registry Services
+address:      12061 Bluemont Way
+address:      Reston VA 20190
+address:      United States of America (the)
+phone:        +1 703 925-6999
+fax-no:       +1 703 948 3978
+e-mail:       info@verisign-grs.com
 
-- Guard the Rust SDK logging initialization path against failures.
-- Log the initialization error instead of crashing the app.
-- Keep app startup resilient when the Rust logging backend is unavailable or misconfigured.
+contact:      technical
+name:         Registry Customer Service
+organisation: VeriSign Global Registry Services
+address:      12061 Bluemont Way
+address:      Reston VA 20190
+address:      United States of America (the)
+phone:        +1 703 925-6999
+fax-no:       +1 703 948 3978
+e-mail:       info@verisign-grs.com
 
-## Testing
+nserver:      A.GTLD-SERVERS.NET 192.5.6.30 2001:503:a83e:0:0:0:2:30
+nserver:      B.GTLD-SERVERS.NET 192.33.14.30 2001:503:231d:0:0:0:2:30
+nserver:      C.GTLD-SERVERS.NET 192.26.92.30 2001:503:83eb:0:0:0:0:30
+nserver:      D.GTLD-SERVERS.NET 192.31.80.30 2001:500:856e:0:0:0:0:30
+nserver:      E.GTLD-SERVERS.NET 192.12.94.30 2001:502:1ca1:0:0:0:0:30
+nserver:      F.GTLD-SERVERS.NET 192.35.51.30 2001:503:d414:0:0:0:0:30
+nserver:      G.GTLD-SERVERS.NET 192.42.93.30 2001:503:eea3:0:0:0:0:30
+nserver:      H.GTLD-SERVERS.NET 192.54.112.30 2001:502:8cc:0:0:0:0:30
+nserver:      I.GTLD-SERVERS.NET 192.43.172.30 2001:503:39c1:0:0:0:0:30
+nserver:      J.GTLD-SERVERS.NET 192.48.79.30 2001:502:7094:0:0:0:0:30
+nserver:      K.GTLD-SERVERS.NET 192.52.178.30 2001:503:d2d:0:0:0:0:30
+nserver:      L.GTLD-SERVERS.NET 192.41.162.30 2001:500:d937:0:0:0:0:30
+nserver:      M.GTLD-SERVERS.NET 192.55.83.30 2001:501:b1f9:0:0:0:0:30
+ds-rdata:     19718 13 2 8acbb0cd28f41250a80a491389424d341522d946b0da0c0291f2d3d771d7805a
 
-- Verified the app no longer crashes when Rust logging initialization fails.
-- Confirmed the initialization error is logged for debugging.
+whois:        whois.verisign-grs.com
 
-## Checklist
+status:       ACTIVE
+remarks:      Registration information: http://www.verisigninc.com
 
-- [x] I have added a clear description for this PR.
-- [x] I have added exactly one appropriate `PR-` label.
+created:  11/22/55
+changed:      2026-03-10
+source:       IANA
+
+A.GTLD-SERVERS.NETC.GTLD-SERVERS.NET192.35.51.30192.12.94.30192.42.93.30H.GTLD-SERVERS.NET
